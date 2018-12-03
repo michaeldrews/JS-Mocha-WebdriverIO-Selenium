@@ -14,7 +14,7 @@
     "webdriverio": "*",
     "mocha": "*",
     "chai": "*",
-    "wdio-mocha-framework": "^0.3.10",
-    "wdio-sauce-service": "~0.1"
+    "wdio-mocha-framework": "*",
+    "wdio-sauce-service": "*"
   }
 }
