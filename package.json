@@ -16,5 +16,8 @@
     "chai": "*",
     "wdio-mocha-framework": "*",
     "wdio-sauce-service": "*"
+  },
+  "devDependencies": {
+    "wdio-junit-reporter": "^0.4.4"
   }
 }
