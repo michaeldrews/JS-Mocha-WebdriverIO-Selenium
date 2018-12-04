@@ -190,8 +190,7 @@ exports.config = {
     afterTest: function (test) {
         var sessionId = browser.sessionId;
         var jobName = 'Mocha Spec Sync example';
-        console.log('SauceOnDemandSessionID=', sessionId);
-        console.log('job-name=', jobName);
+        console.log('SauceOnDemandSessionID=' + sessionId + 'job-name=' + jobName);
 	},
     //
     // Hook that gets executed after the suite has ended
