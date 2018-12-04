@@ -187,8 +187,12 @@ exports.config = {
     // },
     //
     // Function to be executed after a test (in Mocha/Jasmine) or a step (in Cucumber) starts.
-    //afterTest: function (test) {
-	//},
+    afterTest: function (test) {
+        var sessionId = browser.sessionId;
+        var jobName = 'Mocha Spec Sync example';
+        console.log('SauceOnDemandSessionID=', sessionId);
+        console.log('job-name=', jobName);
+	},
     //
     // Hook that gets executed after the suite has ended
     // afterSuite: function (suite) {
@@ -196,7 +200,7 @@ exports.config = {
     //
     // Gets executed after all tests are done. You still have access to all global variables from
     // the test.
-    // after: function (result, capabilities, specs) {
+    // after: function (result, capabilities, specs) {  
     // },
     //
     // Gets executed after all workers got shut down and the process is about to exit. It is not
