@@ -59,7 +59,7 @@ exports.config = {
       {browserName: 'firefox', platform: 'Windows 10', version: '41.0'},
       {browserName: 'chrome', platform: 'OS X 10.10', version: '45.0'},
       {browserName: 'internet explorer', platform: 'Windows 7', version: '10'},
-	    {deviceName: process.env.SELENIUM_DEVICE, platformVersion: process.env.SELENIUM_VERSION}
+	    {deviceName: process.env.SELENIUM_DEVICE, platformVersion: process.env.SELENIUM_VERSION, platformName: 'iOS'}
     ],
     //
     // ===================
